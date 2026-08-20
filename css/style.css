@@ -1,0 +1,1046 @@
+
+:root{
+    --color1:#1DBFC1;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+*::selection{
+    color:#1DBFC1;
+}
+
+.bg-color{
+    background-color: rgba(30, 191, 194, 0.05);
+}
+
+.main-div{
+    padding: 0 28px;
+    animation: myAnimation 5s  alternate;
+      /* height: 700px; */
+}
+
+/* @keyframes myAnimation {
+  0% {height:0px; }
+  100% { height: 787px; }
+} */
+
+.background{
+    background-image: url(https://websitedemos.net/pharmaceutical-02/wp-content/uploads/sites/758/2021/01/pharma-company-template-hero-bg.svg);
+    padding: 0;
+    background-size: cover;
+    background-position:right;
+}
+.desk-nav{
+    display: none;
+}
+
+.desk-nav li a{
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+nav ul .active{
+    color: #1DBFC1;
+}
+nav ul li a:hover {
+    color: #1DBFC1;
+}
+
+.mobile-nav{
+    display: flex ;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.mobile-nav i{
+    color: rgb(72, 155, 155);
+    font-size: 22px;
+}
+
+ul li .button{
+ border: 1px solid #1DBFC1;
+ padding: 11px 15px;
+ border-radius: 30px;
+ background-color: #1DBFC1;
+ color: white;
+ font-weight: 400;
+ font-size: 14PX;
+}
+
+ul li .button:hover{
+    background-color: transparent;
+
+}
+
+.collapse ul li a{
+   color: white !important;
+   text-decoration: none;
+
+}
+
+
+
+
+
+main{
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 15px;
+}
+
+.main-1{
+    padding-top: 30px;
+}
+
+main:first-child{
+    width: 80%;
+}
+
+h2{
+    color:#1DBFC1;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+ main h1{
+    font-size: 34px;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+main p{
+    padding: 8px 0;
+    font-size: 15px;
+    color: #312f2feb;
+    line-height: 1.7;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+button{
+    background-color:transparent;
+    color: var(--color1);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid var(--color1) ;
+    margin-bottom: 30px;
+    font-weight: 700Clinical Development;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.display-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.display p{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.display div{
+    padding-bottom: 30px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+
+
+.imgdiv img{
+    width: 100%;
+    padding: 2% 2%;
+}
+
+.main-padding{
+    padding-top: 50px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.company-part-1{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.company-part-1 h3{
+    font-size: 43px !important;
+}
+
+.company-part-1 i{
+    display: block;
+    color: var(--color1) ;
+    font-size: 40px;
+}
+
+q{
+    quotes: none;
+    padding-right: 20px;
+    font-weight: 900;
+}
+
+.company h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.company h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.company h5{
+    font-weight: 300;
+}
+
+.content-para{
+    line-height: 1.8;
+    font-size:100%;
+    color: #777777f1;
+    padding: 0 0 15px 0;
+}
+
+.div-qute{
+    padding-left: 30px;
+}
+
+.qute{
+    font-weight: 600;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.author{
+    padding: 20px 0;
+    font-weight: 300;
+}
+
+.post{
+    color: rgba(27, 25, 25, 0.568);
+    font-weight: 100;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.dotimage{
+    text-align: right;
+}
+
+.dotimage img{
+    width: 30%;
+}
+
+.main-dotimage {
+  position: relative;
+  top: -80px;
+  right: 50px;
+}
+
+
+.Values{
+    margin:30px 0;
+}
+
+.Values :first-child{
+    padding:5px 0 ;
+}
+.Values :nth-child(2){
+    font-size: 24px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.Values p{
+    font-size: 15px;
+}
+.dot-img {
+  position: relative;
+  top: 74px;
+  left: -44px;
+}
+
+.dot-img img{
+    width: 50%;
+}
+
+.main-products{
+    padding-top: 20px;
+}
+
+.product-head i{
+    display: inline-block;
+    color: var(--color1);
+    padding: 30px 4px 10px 0;
+    font-size: 29px;
+}
+
+.product-head h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.product-head p{
+    font-weight: 300;
+}
+
+.Purpose{
+    padding-top: 100px;
+}
+
+.Purpose  h3{
+    padding-bottom: 50px;
+}
+
+.Purpose-para p {
+    padding-bottom: 20px;
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+}
+
+.last-logo{
+    display: none;
+}
+
+.brand h2{
+    padding: 10px 10px;
+}
+
+.brand-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Partnership{
+    background-color:#1DBFC1;
+    text-align: center;
+    background-image: url("https://websitedemos.net/pharmaceutical-02/wp-content/uploads/sites/758/2021/01/pharma-company-template-cta-bg.svg");
+    background-repeat: no-repeat;
+    color: white;
+    background-position: 98% 50%;
+    
+}
+
+.Partnership h6{
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.Partnership h2{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-transform: none;
+}
+
+.Partnership p{
+    font-size: 14px ;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+.Partnership button{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 20 30px;
+    color: #1DBFC1;
+    border:1px solid white;
+    background-color: white;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+button:hover{
+    background-color:#1DBFC1;
+    color: white;
+    border:1px solid white;
+}
+.info{
+    text-align: center;
+}
+
+.info img {
+    padding: 30px 0;
+}
+
+.p{
+    color:#777777f1;
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.head p{
+
+    font-size: 20px;
+    padding: 15px 0;
+    font-weight: 400;
+}
+
+.head ul li{
+    font-weight: 200;
+
+}
+
+footer{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #777777f1;
+}
+
+footer h6{
+    font-size: 20px;
+    font-weight: 100;
+    color: #1DBFC1;
+    padding: 8px;
+}
+
+hr{
+    margin-bottom: 30px;
+    color: #777777f1;
+    opacity: 0.2;
+}
+.region p{
+    color: #777777f1;
+    padding-bottom: 60px;
+}
+
+.icon{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.icon i {
+    color: #1DBFC1;
+    margin: 0 5px;
+}
+
+.icon-container i {
+    font-size: 20px; /* Initial size of the icon */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.icon-container i:hover {
+    transform: scale(2); /* Icon becomes 1.5 times its original size on hover */
+    cursor: pointer;
+}
+
+.innerbox{
+    display: none;
+}
+
+
+@media  only screen and (min-width:768px) {
+
+
+    .innerbox{
+        display: none;
+    }
+    main{
+        display: flex;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+    }
+
+    h3{
+        font-weight: 600 !important;
+        font-size: 40px !important;
+        padding-bottom: 10px;
+    }
+.main-1{
+    width:50%;
+}
+
+
+main h1{
+    font-size: 40px;
+    width: 250px;
+}
+
+    .display{
+        flex-direction: row;
+    }
+
+    .display-1{
+        display: flex;
+        
+    }
+
+    .idiv{
+        padding-top: 330px;
+    }
+
+    .imgdiv img{
+        width: 284px;
+    }
+
+.dotimage img{
+    width: 10%;
+}
+    .dotimage{
+        display: flex;
+        justify-content: end;
+    }
+
+    .dot-img img{
+        width: 300px;
+    }
+
+    .company{
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 30px;
+
+    }
+
+    .company-part-1{
+    padding-top: 80px;
+    padding-left: 10px;
+    }
+
+
+    .Value h3{
+        width: 600px;
+        font-size: 40px;
+
+    }
+    .box{
+        display: flex;
+       flex-wrap: wrap;
+
+    }
+
+    .Values{
+        width: 30%;
+        padding: 10px;
+    }
+
+    .dot-img{
+        display: none;
+
+    }
+
+    .Products{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .Products .imgdiv{
+        padding-top: 10px !important;
+    }
+
+   .product-head .fa-solid{
+    font-size: 20px ;
+   }
+
+   .product-head h5{
+    margin-top: -30px;
+   }
+
+    .Products-para{
+        width: 100px;
+    }
+
+.Purpose-div h3{
+    font-size: 40px;
+    width: 500px;
+    font-weight: 400;
+}
+.Purpose-div p{
+    width: 660px;
+    padding-left: 5px;
+}
+
+.Purpose-div p:first-child{
+    font-weight: 500;
+}
+
+.Purpose-div :last-child{
+    font-weight: 200;
+}
+
+.Partnership{
+    text-align: start;
+}
+
+.brand-div{
+    display: flex;
+    flex-wrap: wrap;
+     gap: 100px;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.head{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    text-align: left;
+    width: 80vh;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.head p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.head ul{
+    display: flex;
+    flex-direction: column;
+}
+.head ul li{
+    color: #777777f1;
+    padding: 0;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    /* border-top: 0.1px solid #777777c8; */
+}
+.footer-div P{
+    font-weight: 200;
+    font-size: 12PX;
+}
+}
+
+@media (min-width:992px) {
+
+    .main-margin{
+        margin: 0px 10px;
+    }
+
+    .desk-nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top:15px ;
+        align-items: center;
+    }
+
+    .desk-nav img{
+        height: 42px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .desk-nav a{
+         padding: 0 10px;
+    }
+
+    ul{
+        display: flex;
+    }
+
+    ul li{
+        list-style-type: none;
+        padding:0 17px;
+        text-transform: capitalize;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .mobile-nav{
+        display: none;
+    }
+
+
+    .idiv img{
+        width: 300px !important;
+    }
+
+     .Products{
+        display: block !important;
+        flex-direction: row;
+    }
+
+    .imgdiv img{
+        width: 100%;
+
+    }
+
+    .Products .imgdiv  {
+        padding: 75px 20px !important;
+    }
+
+    main img{
+        width: 370px !important;
+    }
+
+    .display{
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        justify-content: space-evenly;
+    }
+
+/* .3EZdiv{
+    width: 100px;
+} */
+
+    .display p{
+    font-size: 60px;
+    }
+
+.display h2{
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+main h1{
+    width: 500px;
+    font-size: 69px;
+    font-weight: 500;
+}
+
+main h2{
+    width: 600px;
+}
+main button{
+    margin-top: 60px;
+    padding: 10px 50px;
+    font-size: 17px;
+}
+
+.main-para{
+    width: 50%;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+
+    .company{
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 30px;
+    height: 700px;
+
+    }
+
+    .company-part-1{
+    padding-top: 80px;
+    padding-left: 100px;
+}
+    .img-1{
+        position: relative;
+        top:-230px
+    }
+
+.Purpose-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.Purpose-div h3{
+    font-size: 30px;
+    width: 380px;
+}
+.Purpose-div p{
+    width: 380px;
+}
+
+
+.brand-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+
+.head{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    text-align: left;
+    width: 100vh;
+    margin: 0 auto;
+}
+  .Products {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .Products .imgdiv{
+    float: left;
+    width: 520px;
+    padding-right: 100px !important;
+  }
+  .product-head i{
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  .product-head h5{
+    font-size: 20px;
+  }
+
+  .Products h3{
+    font-size: 30px !important;
+  }
+
+  .Products p{
+    font-size: 14px;
+  }
+
+  .Products i{
+    font-size: 20px;
+
+  }
+
+  .product-head{
+    display: flex;
+  }
+
+  .Purpose{
+    clear: both;
+  }
+  .info{
+    display: flex;
+  }
+
+  .info .p {
+    padding-top: 30px;
+    margin-left: 124px;
+    height: 45px;
+    width: 630px;
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+   .product-head h5 {
+    margin-top: 2px;
+  }
+
+  .our-brand{
+    padding: 90px 0;
+  }
+
+  .brand{
+    padding-bottom:30px ;
+  }
+}
+
+@media (min-width:1200px){
+      main img{
+        width: 560px !important;
+      }
+
+    .main-margin {
+    margin: 0px 120px !important;
+  }
+
+     .company .idiv img {
+    width: 440px !important;
+  }
+.Purpose-div{
+    /* display: block; */
+}
+  .Purpose h3{
+font-size: 2.8235294117647rem;
+  font-family: 'Heebo',sans-serif;
+  }
+
+  .Products {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .Products .imgdiv{
+    float: left;
+    width: 520px;
+    padding-right: 100px !important;
+  }
+  .product-head i{
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  .product-head h5{
+    font-size: 20px;
+  }
+
+  .Products h3{
+    font-size: 30px !important;
+  }
+
+  .Products p{
+    font-size: 14px;
+  }
+
+  .Products i{
+    font-size: 20px;
+
+  }
+
+  .product-head{
+    display: flex;
+  }
+
+  .info{
+    display: flex;
+    margin: 20px 0;
+    padding: 60px;
+  }
+
+  .info .p {
+    padding-top: 30px;
+    margin-left: 124px;
+    height: 45px;
+    width: 630px;
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  /* .Purpose{
+    clear: both;
+  } */
+
+  .img-1 img{
+    height: 20% !important;
+    width: 700px !important;
+    margin-top: -100px;
+  }
+
+  .img-1 .imgdiv img {
+    width: 500px;
+  }
+
+  .company .imgdiv img {
+    height: 700px !important;
+  width: 630px !important;
+  }
+  .company p{
+    padding-bottom: 70px;
+  }
+
+  .div-qute{
+    display: flex;
+    margin-left: -70px;
+  }
+
+  .div-qute .bi-quote{
+    margin-top:-53px;
+    font-size: 80px;
+  }
+
+.dotimage img {
+    padding-top: 10% !important;
+    width: 16%;
+  }
+
+  .Value{
+    display: flex;
+    gap:260px
+  }
+
+  .Value h2{
+    width: 100px;
+  }
+
+  .outerbox{
+    display: flex;
+    margin-left: -222px;
+  }
+
+ 
+  .innerbox{
+    display: block;
+    height: 530px;;
+    width: 1000px;
+  }
+
+    .innerbox img {
+    height: 50%;
+    width: 116%;
+    margin-left: -270px;
+    padding-left: 15px;
+    margin-left: -129px;
+  }
+
+  .Partnership {
+    background-size: 1200px !important;
+  }
+
+  
+
+
+}
+
+@media (min-width:1700px){
+
+    .Purpose {
+        width: 1600px;
+    }
+
+}

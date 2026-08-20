@@ -1,0 +1,138 @@
+
+# Project Name - hospital responsive website
+
+> Compassionate, world-class healthcare delivering advanced medical treatments across all major specialties. Our expert team of doctors is available 24/7 for emergency care and routine consultations. Book online appointments easily to access diagnostic labs, pharmacy services, and patient-first care. Dedicated to your health and well-being with state-of-the-art technology and verified safety standards.
+
+![Project Screenshot](assets/images/screenshot.png)
+
+## ✨ Features
+
+* **Responsive Design:** Fully fluid layout that adapts seamlessly to mobile, tablet, and desktop screens using Bootstrap grid.
+
+* **Modern UI Components:** Utilizes Bootstrap cards, modals, carousels, and navigation bars.
+
+* **Custom Styling:** Enhanced custom CSS styles layered smoothly over Bootstrap defaults.
+
+* **Cross-Browser Compatible:** Tested and optimized for modern web browsers (Chrome, Firefox, Safari, Edge).
+
+## 🛠️ Built With
+
+* [HTML5](https://mozilla.org) - Markup language
+* [CSS3](https://mozilla.org) - Styling and animations
+* [Bootstrap 5](https://getbootstrap.com/) - CSS framework for responsive design
+* [FontAwesome](https://fontawesome.com) - Icons
+
+## 📁 Project Structure
+
+```text
+my-bootstrap-project/
+├── index.html
+├── pages/
+│   └── about.html
+├── assets/
+│   ├── css/
+│   │   └── custom.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       └── screenshot.png
+```
+
+## 🚀 Getting Started
+
+To run this project locally on your machine, follow these simple steps:
+
+### Prerequisites
+* A modern web browser (Google Chrome, Firefox, etc.)
+* A code editor like [VS Code](https://visualstudio.com) or Sublime Text.
+
+
+
+## Installation & Running
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd my-bootstrap-project
+   ```
+3. **Open the project:**
+   * Double-click `index.html` to open it directly in your browser, **OR**
+   * Open the folder in VS Code and use the **Live Server** extension for hot-reloading.
+
+## 💡 Usage
+Explain how a user or developer interacts with your project once it's open. Give context on key pages, buttons, or features to test.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com).
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 📧 Contact
+
+Your Name - [@your_twitter](https://twitter.com) - email@example.com
+
+Project Link: [https://github.com](https://github.com)
+
+
+
+
+
+//theam
+// https://websitedemos.net
+
+// URL 
+//https://websitedemos.net/pharmaceutical-02/?customizer=true&page-builder=elementor
+
+// technology
+// html css javascript 
+
+//working day
+// 3 days
+
+
+
+
+
+// main section ----------done
+//overall left right margin ---- done
+// dynamic number changes---- done
+// other pages---- done
+//footer---- done
+// hover effect on values---- done
+//resize the dot image---- done
+//product section---- done
+//pourpose---- done
+//brands center---- done
+//partnership ---- done
+//1200 px responsive size ---- done
+
+
+
+
+questions.
+
+1.responsive sizes.
+2.how handle images.
+3.how to handle background images.
+4.horizontal line.
+5.how to find the title bar logo
+
+
+
+
+
+
+
+
